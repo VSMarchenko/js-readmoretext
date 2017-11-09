@@ -12,9 +12,21 @@ This script was created for websites, what use hiding part of the text from user
 
 ### Start
 
-For start the script to use jquery
+Afetr text block you want to hide, add this html code:
+``` html
+<div class="YOUR_CLASS">
+   first text
+   --- SEPARATOR ---
+   second text
+   </div>
+<div class="read-more"><span>READMORE</span><span>HDIE</span></div>
+```
+
+Then use jquery and jsreadmoretext.js 
 ``` html
 <script src="jquery.js"></script>
 <script src="jsreadmoretext.js"></script>
+<script>
+   $('.YOUR_CLASS').readmore()
+</script>
 ```
-
