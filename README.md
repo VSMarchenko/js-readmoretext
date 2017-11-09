@@ -1,6 +1,6 @@
 ### jsreadmoretext.js
 
-This script was created for websites, what use hiding part of the text from users, but do not want hide this text from bots.
+This javascript/jqueri plug-in was created for websites, what use hiding part of the text from users, but do not want hide this text from bots.
 
 ### Browser Support
 
@@ -15,9 +15,9 @@ This script was created for websites, what use hiding part of the text from user
 Afetr text block you want to hide, add this html code:
 ``` html
 <div class="YOUR_CLASS">
-   first text
+   visible text
    --- SEPARATOR ---
-   second text
+   hidden text
    </div>
 <div class="read-more"><span>READMORE</span><span>HDIE</span></div>
 ```
@@ -29,4 +29,14 @@ Then use jquery and jsreadmoretext.js
 <script>
    $('.YOUR_CLASS').readmore()
 </script>
+```
+
+Plug-in "jsreadmoretext.js" have the following settings:
+``` js
+   thisClass:"read-more",
+   separator:"<!--more-->",
+			hide:true,
+			shadowDown:true,
+			shadowDownClass:'show-down-shadow',
+			setTime:400
 ```
