@@ -19,7 +19,7 @@ Afetr text block you want to hide, add this html code:
    --- SEPARATOR ---
    hidden text
    </div>
-<div class="read-more"><span>READMORE</span><span>HDIE</span></div>
+<div class="read-more"><span>MORE</span><span>HDIE</span></div>
 ```
 
 Then use jquery and jsreadmoretext.js 
@@ -33,10 +33,11 @@ Then use jquery and jsreadmoretext.js
 
 Plug-in "jsreadmoretext.js" have the following settings:
 ``` js
-   thisClass:"read-more",
-   separator:"<!--more-->",
-			hide:true,
-			shadowDown:true,
-			shadowDownClass:'show-down-shadow',
-			setTime:400
+   thisClass:"",
+   separator:"",
+   hide:true,
+   shadowDown:true,
+   shadowDownClass:'show-down-shadow',
+   setTime:400
 ```
+thisClass - class for div with buttons MORE and HIDE
