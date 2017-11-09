@@ -12,7 +12,7 @@ This javascript/jqueri plug-in was created for websites, what use hiding part of
 
 ### Start
 
-Afetr text block you want to hide, add this html code:
+# Afetr text block you want to hide, add this html code:
 ``` html
 <div class="YOUR_CLASS">
    visible text
