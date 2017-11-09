@@ -2,14 +2,6 @@
 
 This javascript/jquery plug-in was created for websites, what using hiding part of the text from users, but do not want hide this text from bots.
 
-# Browser Support
-
-  * IE 6+
-  * Opera 10+
-  * Safari 3+
-  * Chrome 1+
-  * Firefox 2+
-
 # Start
 
 ### Afetr text block you want to hide, add this html code:
@@ -51,3 +43,9 @@ shadowDown      - using true/false and show the gradient in the visible block (b
 shadowDownClass - if shadowDown option is false, then there is an opportunity to use own class (by default is 'show-down-shadow')
 setTime         - animation speed
 ```
+
+# Browser Support
+
+| <img src="https://clipboardjs.com/assets/images/chrome.png" width="48px" height="48px" alt="Chrome logo"> | <img src="https://clipboardjs.com/assets/images/edge.png" width="48px" height="48px" alt="Edge logo"> | <img src="https://clipboardjs.com/assets/images/firefox.png" width="48px" height="48px" alt="Firefox logo"> | <img src="https://clipboardjs.com/assets/images/ie.png" width="48px" height="48px" alt="Internet Explorer logo"> | <img src="https://clipboardjs.com/assets/images/opera.png" width="48px" height="48px" alt="Opera logo"> | <img src="https://clipboardjs.com/assets/images/safari.png" width="48px" height="48px" alt="Safari logo"> |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+
