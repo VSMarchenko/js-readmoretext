@@ -1,6 +1,6 @@
-# jsreadmoretext.js
+# Plug-in "read more" - jsreadmoretext.js
 
-This javascript/jqueri plug-in was created for websites, what use hiding part of the text from users, but do not want hide this text from bots.
+This javascript/jquery plug-in was created for websites, what using hiding part of the text from users, but do not want hide this text from bots.
 
 # Browser Support
 
