@@ -40,7 +40,7 @@ This javascript/jqueri plug-in was created for websites, what use hiding part of
    shadowDownClass:'show-down-shadow',
    setTime:400
 ```
-> ``` 
+``` 
 thisClass       - class for div with buttons MORE and HIDE
 separator       - text, what will be separate all text (in the above code is --- SEPARATOR ---)
 hide            - if use "true", will be useing buttons MORE and HIDE
