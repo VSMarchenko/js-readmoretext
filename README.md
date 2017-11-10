@@ -1,12 +1,15 @@
-# Plug-in "read more" - jsreadmoretext.js
+# Plug-in "read more" - js-readmoretext.js
 
 This javascript/jquery plug-in was created for websites, what using hiding part of the text from users, but do not want hide this text from bots.
 
 # Start
 
-### Afetr text block you want to hide, add this html code:
+### Afetr text block you want to hide
+
+You need to wrap your text by div with your ID. The text should be included --- SEPARATOR ---. Separator is any character set, different from others characters from your text 
+
 ``` html
-<div class="YOUR_CLASS">
+<div id="YOUR_ID">
    visible text
    --- SEPARATOR ---
    hidden text
@@ -14,7 +17,7 @@ This javascript/jquery plug-in was created for websites, what using hiding part 
 <div class="read-more"><span>MORE</span><span>HDIE</span></div>
 ```
 
-### Then use jquery and jsreadmoretext.js 
+### Then use jquery and js-readmoretext.js 
 ``` html
 <script src="jquery.js"></script>
 <script src="jsreadmoretext.js"></script>
@@ -25,7 +28,7 @@ This javascript/jquery plug-in was created for websites, what using hiding part 
 
 ### Plug-in "jsreadmoretext.js" have the following settings:
 ``` js
-$('.YOUR_CLASS').readmore({
+$('#YOUR_ID').readmore({
    thisClass:"",
    separator:"",
    hide:true,
