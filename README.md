@@ -6,14 +6,14 @@ This javascript/jquery plug-in was created for websites, what using hiding part 
 
 ### Afetr text block you want to hide
 
-You need to wrap your text by div with your ID. The text should be included --- SEPARATOR ---. Separator is any character set, different from others characters from your text 
+You need to wrap your text by div with your ID. The text should be included --- SEPARATOR ---. Separator is any character set, different from others characters from your text.
 
 ``` html
 <div id="YOUR_ID">
    visible text
    --- SEPARATOR ---
    hidden text
-   </div>
+</div>
 <div class="read-more"><span>MORE</span><span>HDIE</span></div>
 ```
 
