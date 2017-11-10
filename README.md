@@ -22,11 +22,11 @@ You need to wrap your text by div with your ID. The text should be included --- 
 <script src="jquery.js"></script>
 <script src="jsreadmoretext.js"></script>
 <script>
-   $('.YOUR_CLASS').readmore()
+   $('#YOUR_ID').readmore()
 </script>
 ```
 
-### Plug-in "jsreadmoretext.js" have the following settings:
+### Plug-in "js-readmoretext.js" have the following settings:
 ``` js
 $('#YOUR_ID').readmore({
    thisClass:"",
@@ -49,6 +49,6 @@ setTime         - animation speed
 
 # Browser Support
 
-| <img src="https://clipboardjs.com/assets/images/chrome.png" width="48px" height="48px" alt="Chrome logo"> | <img src="https://clipboardjs.com/assets/images/edge.png" width="48px" height="48px" alt="Edge logo"> | <img src="https://clipboardjs.com/assets/images/firefox.png" width="48px" height="48px" alt="Firefox logo"> | <img src="https://clipboardjs.com/assets/images/ie.png" width="48px" height="48px" alt="Internet Explorer logo"> | <img src="https://clipboardjs.com/assets/images/opera.png" width="48px" height="48px" alt="Opera logo"> | <img src="https://clipboardjs.com/assets/images/safari.png" width="48px" height="48px" alt="Safari logo"> |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 42+ ✔ | 12+ ✔ | 41+ ✔ | 9+ ✔ | 29+ ✔ | 10+ ✔ |
+| <img src="https://clipboardjs.com/assets/images/chrome.png" width="48px" height="48px" alt="Chrome logo"> | <img src="https://clipboardjs.com/assets/images/edge.png" width="48px" height="48px" alt="Edge logo"> | <img src="https://clipboardjs.com/assets/images/firefox.png" width="48px" height="48px" alt="Firefox logo"> | <img src="https://clipboardjs.com/assets/images/opera.png" width="48px" height="48px" alt="Opera logo"> | <img src="https://clipboardjs.com/assets/images/safari.png" width="48px" height="48px" alt="Safari logo"> |
+|:---:|:---:|:---:|:---:|:---:|
+| 42+ ✔ | 12+ ✔ | 41+ ✔ |29+ ✔ | 10+ ✔ |
